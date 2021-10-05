@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>var_5_pract_1</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Lib_5">
+      <HintPath>..\Lib_5\Lib_5\bin\Debug\netcoreapp3.1\Lib_5.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
