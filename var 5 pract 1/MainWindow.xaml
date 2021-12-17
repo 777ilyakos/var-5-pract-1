@@ -14,7 +14,7 @@
         </Menu>
         <TextBox x:Name="numbers" ToolTip="числа" HorizontalAlignment="Left" Margin="20,23,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="352" IsReadOnly="True"/>
         <Button Content="генерировать" ToolTip="планируемая сумма" HorizontalAlignment="Left" Margin="20,69345,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_Generate"/>
-        <TextBox x:Name="KTextBox" HorizontalAlignment="Left" Margin="20,46,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" PreviewTextInput="TextBox_PreviewTextInput" MaxLength="6"/>
+        <TextBox x:Name="KTextBox" HorizontalAlignment="Left" Margin="20,46,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" MaxLength="6"/>
         <TextBox x:Name="SummTextBox" ToolTip="сумма" HorizontalAlignment="Left" Margin="205,46,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" IsReadOnly="True"/>
         <TextBox x:Name="KolvoTextBox" ToolTip="количество" HorizontalAlignment="Left" Margin="205,69,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" IsReadOnly="True"/>
 

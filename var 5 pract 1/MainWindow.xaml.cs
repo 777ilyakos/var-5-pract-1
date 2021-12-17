@@ -36,7 +36,7 @@ namespace var_5_pract_1
                 SummTextBox.Text = sumGeneret.ToString();
                 KolvoTextBox.Text = kolvo.ToString();
             }
-            catch { MessageBox.Show(" а ну заполни поле", "@приказ@"); }
+            catch { MessageBox.Show(" а ну заполни поле правильно", "@приказ@"); }
         }
         private void Button_Click_exit(object sender, RoutedEventArgs e)
         {
@@ -45,14 +45,6 @@ namespace var_5_pract_1
         private void Button_Click_info(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Косоуров И. Н.\nвариант 5 практическая 1\n\nВычислить сумму целых случайных чисел, распределенных в диапазоне от - 7 до 3,\nпока эта сумма не превышает некоторого числа K.Вывести на экран\nсгенерированные числа, значение суммы, и количество сгенерированных чисел.","информация о программе");
-        }
-        private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
-        {
-            int val;
-            if (!Int32.TryParse(e.Text, out val) && e.Text != "-")
-            {
-                e.Handled = true; // отклоняем ввод
-            }
         }
     }   
 }
